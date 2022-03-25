@@ -107,7 +107,7 @@ fit.rf2 <- train(grade ~ midterm+att+hw+crt+pps, data = dat,
                  trControl = control,
                  tuneLength = 4)
 
-#โมเดลที่มีประสิทธิภาพดีที่สุดคือ Regression โดยมีคะแนนรวมเป็นตัวแปรทำนาย
+#โมเดลที่มีประสิทธิภาพดีที่สุดคือ Regression โดยมีคะแนนรวมเป็นตัวแปรตาม
 
 #shiny
 ui <- fluidPage(
